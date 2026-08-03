@@ -30,6 +30,7 @@ function showReservations() {
 <p class="mb-1"><b>Room No :</b> ${res.roomNo}</p>
 <p class="mb-1"><b>Meal Plan :</b> ${res.mealPlan}</p>
 <p class="mb-1"><b>Room Rate (LKR) :</b> ${res.roomRate}</p>
+<p class="mb-1"><b>Meal Rate (LKR) :</b> ${res.mealRate}</p>
 <p class="mb-1"><b>Advance Paid (LKR) :</b> ${res.advancePaid}</p>
 <p class="mb-1"><b>Balance Due (LKR) :</b> ${res.balanceDue}</p>
 <p class="mb-1"><b>Special Notes :</b> ${res.specialNotes}</p>
