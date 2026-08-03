@@ -1,5 +1,4 @@
 const reservations = [
-
     {
         guestName: "Kavithma",
         checkIn: "2026-08-03",
@@ -14,5 +13,130 @@ const reservations = [
         specialNotes: "Honeymoon Couple",
         date: "2026-08-03"
     },
-
+    {
+        guestName: "Nimal Perera",
+        checkIn: "2026-08-05",
+        checkOut: "2026-08-07",
+        noOfNights: "2",
+        noOfGuests: "2",
+        roomNo: "2",
+        mealPlan: "HB",
+        roomRate: "25000",
+        advancePaid: "10000",
+        balanceDue: "15000",
+        specialNotes: "Sea View Requested",
+        date: "2026-08-05"
+    },
+    {
+        guestName: "Saman Kumara",
+        checkIn: "2026-08-06",
+        checkOut: "2026-08-09",
+        noOfNights: "3",
+        noOfGuests: "4",
+        roomNo: "3",
+        mealPlan: "FB",
+        roomRate: "30000",
+        advancePaid: "20000",
+        balanceDue: "10000",
+        specialNotes: "Family Vacation",
+        date: "2026-08-06"
+    },
+    {
+        guestName: "Amanda Silva",
+        checkIn: "2026-08-08",
+        checkOut: "2026-08-10",
+        noOfNights: "2",
+        noOfGuests: "2",
+        roomNo: "4",
+        mealPlan: "RO",
+        roomRate: "14000",
+        advancePaid: "5000",
+        balanceDue: "9000",
+        specialNotes: "Late Check-in",
+        date: "2026-08-08"
+    },
+    {
+        guestName: "John Smith",
+        checkIn: "2026-08-10",
+        checkOut: "2026-08-13",
+        noOfNights: "3",
+        noOfGuests: "2",
+        roomNo: "5",
+        mealPlan: "BB",
+        roomRate: "17000",
+        advancePaid: "15000",
+        balanceDue: "2000",
+        specialNotes: "Airport Pickup",
+        date: "2026-08-10"
+    },
+    {
+        guestName: "Emily Brown",
+        checkIn: "2026-08-12",
+        checkOut: "2026-08-15",
+        noOfNights: "3",
+        noOfGuests: "1",
+        roomNo: "6",
+        mealPlan: "HB",
+        roomRate: "19000",
+        advancePaid: "12000",
+        balanceDue: "7000",
+        specialNotes: "Business Trip",
+        date: "2026-08-12"
+    },
+    {
+        guestName: "Ruwan Fernando",
+        checkIn: "2026-08-14",
+        checkOut: "2026-08-16",
+        noOfNights: "2",
+        noOfGuests: "3",
+        roomNo: "7",
+        mealPlan: "FB",
+        roomRate: "21000",
+        advancePaid: "10000",
+        balanceDue: "11000",
+        specialNotes: "Birthday Celebration",
+        date: "2026-08-14"
+    },
+    {
+        guestName: "Sarah Wilson",
+        checkIn: "2026-08-16",
+        checkOut: "2026-08-18",
+        noOfNights: "2",
+        noOfGuests: "2",
+        roomNo: "8",
+        mealPlan: "BB",
+        roomRate: "16500",
+        advancePaid: "8000",
+        balanceDue: "8500",
+        specialNotes: "High Floor Preferred",
+        date: "2026-08-16"
+    },
+    {
+        guestName: "Chamara Jayasinghe",
+        checkIn: "2026-08-18",
+        checkOut: "2026-08-21",
+        noOfNights: "3",
+        noOfGuests: "5",
+        roomNo: "9",
+        mealPlan: "HB",
+        roomRate: "23000",
+        advancePaid: "5000",
+        balanceDue: "18000",
+        specialNotes: "Group Booking",
+        date: "2026-08-18"
+    },
+    {
+        guestName: "Olivia Taylor",
+        checkIn: "2026-08-20",
+        checkOut: "2026-08-22",
+        noOfNights: "2",
+        noOfGuests: "2",
+        roomNo: "10",
+        mealPlan: "RO",
+        roomRate: "15500",
+        advancePaid: "7000",
+        balanceDue: "8500",
+        specialNotes: "Anniversary Stay",
+        date: "2026-08-20"
+    }
 ];
