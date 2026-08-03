@@ -4,28 +4,15 @@ const reservations = [
         guestName: "Kavithma",
         checkIn: "2026-08-03",
         checkOut: "2026-08-04",
-        mealPlan: "RO"
+        noOfNights: "1",
+        noOfGuests: "2",
+        roomNo: "1",
+        mealPlan: "BB",
+        roomRate: "15000",
+        advancePaid: "5000",
+        balanceDue: "10000",
+        specialNotes: "Honeymoon Couple",
+        date: "2026-08-03"
     },
-
-    {
-        guestName: "Kamal",
-        checkIn: "2026-08-03",
-        checkOut: "2026-08-05",
-        mealPlan: "BB"
-    },
-
-    {
-        guestName: "Nimal",
-        checkIn: "2026-08-04",
-        checkOut: "2026-08-05",
-        mealPlan: "RO"
-    },
-
-    {
-        guestName: "Amal",
-        checkIn: "2026-08-04",
-        checkOut: "2026-08-07",
-        mealPlan: "RO"
-    }
 
 ];
