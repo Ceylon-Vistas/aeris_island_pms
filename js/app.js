@@ -16,6 +16,15 @@ function showReservations() {
     let html = "";
     let found = false;
 
+    let selectedDate = new Date(date);
+    let runningTotal = 0;
+
+    $.each(reservations, function (i, res) {
+        if (new Date(res.checkIn) <= selectedDate) {
+            runningTotal += Number(res.roomRate) + Number(res.mealRate);
+        }
+    });
+
     $.each(reservations, function (i, res) {
         if (res.checkIn === date) {
             found = true;
@@ -23,16 +32,16 @@ function showReservations() {
 <div class="card mb-3 shadow-sm">
 <div class="card-body">
 <p class="mb-1"><b>Guest Name:</b> ${res.guestName}</p>
-<p class="mb-1"><b>Check In  :</b> ${res.checkIn}</p>
+<p class="mb-1"><b>Check In :</b> ${res.checkIn}</p>
 <p class="mb-1"><b>Check Out :</b> ${res.checkOut}</p>
 <p class="mb-1"><b>No of Nights :</b> ${res.noOfNights}</p>
 <p class="mb-1"><b>No of Guests :</b> ${res.noOfGuests}</p>
 <p class="mb-1"><b>Room No :</b> ${res.roomNo}</p>
 <p class="mb-1"><b>Meal Plan :</b> ${res.mealPlan}</p>
-<p class="mb-1"><b>Room Rate (LKR) :</b> ${res.roomRate}</p>
-<p class="mb-1"><b>Meal Rate (LKR) :</b> ${res.mealRate}</p>
-<p class="mb-1"><b>Advance Paid (LKR) :</b> ${res.advancePaid}</p>
-<p class="mb-1"><b>Balance Due (LKR) :</b> ${res.balanceDue}</p>
+<p class="mb-1"><b>Meal Rate (LKR):</b> ${res.mealRate.toLocaleString()}</p>
+<p class="mb-1"><b>Room Rate (LKR):</b> ${res.roomRate.toLocaleString()}</p>
+<p class="mb-1"><b>Advance Paid (LKR):</b> ${res.advancePaid.toLocaleString()}</p>
+<p class="mb-1"><b>Balance Due (LKR):</b> ${res.balanceDue.toLocaleString()}</p>
 <p class="mb-1"><b>Special Notes :</b> ${res.specialNotes}</p>
 <p class="mb-0"><b>Date :</b> ${res.date}</p>
 </div>
@@ -43,5 +52,11 @@ function showReservations() {
     if (!found) {
         html = `<div class="alert alert-secondary">No reservations</div>`;
     }
+
+    html += `
+<h4 class="text-center mt-4">LKR ${runningTotal.toLocaleString()}</h4>
+</div>
+</div>`;
+
     $("#reservationList").html(html);
 }
