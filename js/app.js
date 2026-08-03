@@ -31,19 +31,19 @@ function showReservations() {
             html += `
 <div class="card mb-3 shadow-sm">
 <div class="card-body">
-<p class="mb-1"><b>Guest Name:</b> ${res.guestName}</p>
-<p class="mb-1"><b>Check In :</b> ${res.checkIn}</p>
-<p class="mb-1"><b>Check Out :</b> ${res.checkOut}</p>
-<p class="mb-1"><b>No of Nights :</b> ${res.noOfNights}</p>
-<p class="mb-1"><b>No of Guests :</b> ${res.noOfGuests}</p>
-<p class="mb-1"><b>Room No :</b> ${res.roomNo}</p>
-<p class="mb-1"><b>Meal Plan :</b> ${res.mealPlan}</p>
-<p class="mb-1"><b>Meal Rate (LKR):</b> ${res.mealRate.toLocaleString()}</p>
-<p class="mb-1"><b>Room Rate (LKR):</b> ${res.roomRate.toLocaleString()}</p>
-<p class="mb-1"><b>Advance Paid (LKR):</b> ${res.advancePaid.toLocaleString()}</p>
-<p class="mb-1"><b>Balance Due (LKR):</b> ${res.balanceDue.toLocaleString()}</p>
-<p class="mb-1"><b>Special Notes :</b> ${res.specialNotes}</p>
-<p class="mb-0"><b>Date :</b> ${res.date}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Guest Name</b>: ${res.guestName}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Check In</b>: ${res.checkIn}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Check Out</b>: ${res.checkOut}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">No of Nights</b>: ${res.noOfNights}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">No of Guests</b>: ${res.noOfGuests}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Room No</b>: ${res.roomNo}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Meal Plan</b>: ${res.mealPlan}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Meal Rate (LKR)</b>: ${res.mealRate.toLocaleString()}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Room Rate (LKR)</b>: ${res.roomRate.toLocaleString()}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Advance Paid (LKR)</b>: ${res.advancePaid.toLocaleString()}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Balance Due (LKR)</b>: ${res.balanceDue.toLocaleString()}</p>
+<p class="mb-1"><b style="display:inline-block;width:155px;">Special Notes</b>: ${res.specialNotes}</p>
+<p class="mb-0"><b style="display:inline-block;width:155px;">Date</b>: ${res.date}</p>
 </div>
 </div>`;
         }
