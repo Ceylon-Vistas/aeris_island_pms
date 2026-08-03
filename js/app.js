@@ -20,7 +20,6 @@ function showReservations() {
         if (res.checkIn === date) {
             found = true;
             html += `
-
 <div class="card mb-3 shadow-sm">
 <div class="card-body">
 <p class="mb-1"><b>Guest Name:</b> ${res.guestName}</p>
