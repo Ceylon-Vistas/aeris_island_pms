@@ -21,8 +21,10 @@ function showReservations() {
             found = true;
             html += `
 
-<div class="card mb-3 shadow-sm">
-<div class="card-body">
+<div class="row justify-content-center mb-3">
+    <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
 
 <h5>${res.guestName}</h5>
 
@@ -38,7 +40,9 @@ function showReservations() {
 <b>Room Type :</b> ${res.roomType}
 </p>
 
-</div>
+            </div>
+        </div>
+    </div>
 </div>`;
         }
     });
