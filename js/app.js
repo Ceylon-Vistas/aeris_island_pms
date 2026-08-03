@@ -1,9 +1,13 @@
 $(function () {
-    $("#selectedDate").val("2026-08-03");
+    $("#selectedDate")
+        .val(new Date().toISOString().split("T")[0])
+        .on("change", showReservations)
+        .on("click", function () {
+            if (this.showPicker) {
+                this.showPicker();
+            }
+        });
     showReservations();
-    $("#selectedDate").on("change", function () {
-        showReservations();
-    });
 });
 
 function showReservations() {
