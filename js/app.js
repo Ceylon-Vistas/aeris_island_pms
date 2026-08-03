@@ -1,35 +1,23 @@
-$(function(){
-
+$(function () {
     $("#selectedDate").val("2026-08-03");
-
     showReservations();
-
-    $("#selectedDate").on("change",function(){
-
+    $("#selectedDate").on("change", function () {
         showReservations();
-
     });
-
 });
 
-function showReservations(){
+function showReservations() {
 
-    let date=$("#selectedDate").val();
+    let date = $("#selectedDate").val();
+    let html = "";
+    let found = false;
 
-    let html="";
-
-    let found=false;
-
-    $.each(reservations,function(i,res){
-
-        if(res.checkIn===date){
-
-            found=true;
-
-            html+=`
+    $.each(reservations, function (i, res) {
+        if (res.checkIn === date) {
+            found = true;
+            html += `
 
 <div class="card mb-3 shadow-sm">
-
 <div class="card-body">
 
 <h5>${res.guestName}</h5>
@@ -47,29 +35,12 @@ function showReservations(){
 </p>
 
 </div>
-
-</div>
-
-`;
-
+</div>`;
         }
-
     });
 
-    if(!found){
-
-        html=`
-
-<div class="alert alert-secondary">
-
-No reservations.
-
-</div>
-
-`;
-
+    if (!found) {
+        html = `<div class="alert alert-secondary">No reservations</div>`;
     }
-
     $("#reservationList").html(html);
-
 }

@@ -1,31 +1,31 @@
 const reservations = [
 
     {
-        guestName:"John Smith",
-        checkIn:"2026-08-03",
-        checkOut:"2026-08-05",
-        roomType:"Deluxe"
+        guestName: "Kavithma",
+        checkIn: "2026-08-03",
+        checkOut: "2026-08-04",
+        roomType: "RO"
     },
 
     {
-        guestName:"Nimal Perera",
-        checkIn:"2026-08-03",
-        checkOut:"2026-08-04",
-        roomType:"Standard"
+        guestName: "Kamal",
+        checkIn: "2026-08-03",
+        checkOut: "2026-08-05",
+        roomType: "BB"
     },
 
     {
-        guestName:"Sarah Wilson",
-        checkIn:"2026-08-04",
-        checkOut:"2026-08-06",
-        roomType:"Family"
+        guestName: "Nimal",
+        checkIn: "2026-08-04",
+        checkOut: "2026-08-05",
+        roomType: "RO"
     },
 
     {
-        guestName:"David Brown",
-        checkIn:"2026-08-05",
-        checkOut:"2026-08-07",
-        roomType:"Suite"
+        guestName: "Amal",
+        checkIn: "2026-08-04",
+        checkOut: "2026-08-07",
+        roomType: "RO"
     }
 
 ];
