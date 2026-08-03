@@ -20,19 +20,15 @@ function showReservations() {
         if (res.checkIn === date) {
             found = true;
             html += `
-<div class="row justify-content-center mb-3">
-    <div class="col-10 col-sm-8 col-md-6 col-lg-4">
-        <div class="card shadow-sm">
-            <div class="card-body">
-                <p class="mb-1"><b>Guest Name:</b> ${res.guestName}</p>
-                <p class="mb-1"><b>Check In  :</b> ${res.checkIn}</p>
-                <p class="mb-1"><b>Check Out :</b> ${res.checkOut}</p>
-                <p class="mb-0"><b>Room Type :</b> ${res.roomType}</p>
-            </div>
-        </div>
-    </div>
+
+<div class="card mb-3 shadow-sm">
+<div class="card-body">
+<p class="mb-1"><b>Guest Name:</b> ${res.guestName}</p>
+<p class="mb-1"><b>Check In  :</b> ${res.checkIn}</p>
+<p class="mb-1"><b>Check Out :</b> ${res.checkOut}</p>
+<p class="mb-0"><b>Room Type :</b> ${res.roomType}</p>
 </div>
-`;
+</div>`;
         }
     });
 
