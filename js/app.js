@@ -19,8 +19,16 @@ function showReservations() {
     let selectedDate = new Date(date);
     let runningTotal = 0;
 
+    let selectedMonth = selectedDate.getMonth();
+    let selectedYear = selectedDate.getFullYear();
+
     $.each(reservations, function (i, res) {
-        if (new Date(res.checkIn) <= selectedDate) {
+        let checkInDate = new Date(res.checkIn);
+        if (
+            checkInDate <= selectedDate &&
+            checkInDate.getMonth() === selectedMonth &&
+            checkInDate.getFullYear() === selectedYear
+        ) {
             runningTotal += Number(res.roomRate) + Number(res.others);
         }
     });
