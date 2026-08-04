@@ -17,7 +17,7 @@ function showReservations() {
     let found = false;
 
     let selectedDate = new Date(date);
-    let runningTotal = 0;
+    let total = 0;
 
     let selectedMonth = selectedDate.getMonth();
     let selectedYear = selectedDate.getFullYear();
@@ -29,7 +29,7 @@ function showReservations() {
             checkInDate.getMonth() === selectedMonth &&
             checkInDate.getFullYear() === selectedYear
         ) {
-            runningTotal += Number(res.roomRate) + Number(res.others);
+            total += Number(res.roomRate) + Number(res.others);
         }
     });
 
@@ -61,6 +61,6 @@ function showReservations() {
         html = `<div class="alert alert-danger">No reservations</div>`;
     }
 
-    $("#reservationList").html(html);
-    $("#runningTotal").text(`LKR ${runningTotal.toLocaleString()}`);
+    $("#reservations").html(html);
+    $("#total").text(`LKR ${total.toLocaleString()}`);
 }
