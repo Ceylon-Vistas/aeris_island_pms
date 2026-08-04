@@ -1,6 +1,7 @@
 const reservations = [
     {
         guestName: "Kavithma",
+        phone: "0771234567",
         checkIn: "2026-08-03",
         checkOut: "2026-08-04",
         nights: "1",
@@ -15,6 +16,7 @@ const reservations = [
     },
     {
         guestName: "Nimal Perera",
+        phone: "0771234567",
         checkIn: "2026-08-05",
         checkOut: "2026-08-07",
         nights: "2",
@@ -29,6 +31,7 @@ const reservations = [
     },
     {
         guestName: "Saman Kumara",
+        phone: "0771234567",
         checkIn: "2026-08-06",
         checkOut: "2026-08-09",
         nights: "3",
@@ -43,6 +46,7 @@ const reservations = [
     },
     {
         guestName: "Amanda Silva",
+        phone: "0771234567",
         checkIn: "2026-08-08",
         checkOut: "2026-08-10",
         nights: "2",
@@ -57,6 +61,7 @@ const reservations = [
     },
     {
         guestName: "John Smith",
+        phone: "0771234567",
         checkIn: "2026-08-10",
         checkOut: "2026-08-13",
         nights: "3",
@@ -71,6 +76,7 @@ const reservations = [
     },
     {
         guestName: "Emily Brown",
+        phone: "0771234567",
         checkIn: "2026-08-12",
         checkOut: "2026-08-15",
         nights: "3",
@@ -85,6 +91,7 @@ const reservations = [
     },
     {
         guestName: "Ruwan Fernando",
+        phone: "0771234567",
         checkIn: "2026-08-14",
         checkOut: "2026-08-16",
         nights: "2",
@@ -99,6 +106,7 @@ const reservations = [
     },
     {
         guestName: "Sarah Wilson",
+        phone: "0771234567",
         checkIn: "2026-08-16",
         checkOut: "2026-08-18",
         nights: "2",
@@ -113,6 +121,7 @@ const reservations = [
     },
     {
         guestName: "Chamara Jayasinghe",
+        phone: "0771234567",
         checkIn: "2026-08-18",
         checkOut: "2026-08-21",
         nights: "3",
@@ -127,6 +136,7 @@ const reservations = [
     },
     {
         guestName: "Olivia Taylor",
+        phone: "0771234567",
         checkIn: "2026-08-20",
         checkOut: "2026-08-22",
         nights: "2",

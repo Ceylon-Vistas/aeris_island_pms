@@ -40,6 +40,7 @@ function showReservations() {
             <div class="card mb-3 shadow-sm">
                 <div class="card-body">
                     <p class="mb-1"><b style="display:inline-block;width:153px;">Guest Name</b>: ${res.guestName}</p>
+                    <p class="mb-1"><b style="display:inline-block;width:153px;">Phone</b>: ${res.phone}</p>
                     <p class="mb-1"><b style="display:inline-block;width:153px;">Check In</b>: ${res.checkIn}</p>
                     <p class="mb-1"><b style="display:inline-block;width:153px;">Check Out</b>: ${res.checkOut}</p>
                     <p class="mb-1"><b style="display:inline-block;width:153px;">Nights</b>: ${res.nights}</p>
