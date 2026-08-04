@@ -60,10 +60,6 @@ function showReservations() {
         html = `<div class="alert alert-secondary">No reservations</div>`;
     }
 
-    html += `
-<h4 class="text-center mt-4">LKR ${runningTotal.toLocaleString()}</h4>
-</div>
-</div>`;
-
     $("#reservationList").html(html);
+    $("#runningTotal").text(`LKR ${runningTotal.toLocaleString()}`);
 }
