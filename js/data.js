@@ -8,11 +8,11 @@ const reservations = [
         roomNo: "1",
         mealPlan: "BB",
         roomRate: 15000,
-        mealRate: 5000,
         advancePaid: 5000,
         balanceDue: 10000,
         specialNotes: "Honeymoon Couple",
-        date: "2026-08-03"
+        date: "2026-08-03",
+        others: 5000
     },
     {
         guestName: "Nimal Perera",
@@ -23,11 +23,11 @@ const reservations = [
         roomNo: "2",
         mealPlan: "HB",
         roomRate: 25000,
-        mealRate: 5000,
         advancePaid: 10000,
         balanceDue: 15000,
         specialNotes: "Sea View Requested",
-        date: "2026-08-05"
+        date: "2026-08-05",
+        others: 5000
     },
     {
         guestName: "Saman Kumara",
@@ -38,11 +38,11 @@ const reservations = [
         roomNo: "3",
         mealPlan: "FB",
         roomRate: 30000,
-        mealRate: 5000,
         advancePaid: 20000,
         balanceDue: 10000,
         specialNotes: "Family Vacation",
-        date: "2026-08-06"
+        date: "2026-08-06",
+        others: 5000
     },
     {
         guestName: "Amanda Silva",
@@ -53,11 +53,11 @@ const reservations = [
         roomNo: "4",
         mealPlan: "RO",
         roomRate: 14000,
-        mealRate: 5000,
         advancePaid: 5000,
         balanceDue: 9000,
         specialNotes: "Late Check-in",
-        date: "2026-08-08"
+        date: "2026-08-08",
+        others: 5000
     },
     {
         guestName: "John Smith",
@@ -68,11 +68,11 @@ const reservations = [
         roomNo: "5",
         mealPlan: "BB",
         roomRate: 17000,
-        mealRate: 5000,
         advancePaid: 15000,
         balanceDue: 2000,
         specialNotes: "Airport Pickup",
-        date: "2026-08-10"
+        date: "2026-08-10",
+        others: 5000
     },
     {
         guestName: "Emily Brown",
@@ -83,11 +83,11 @@ const reservations = [
         roomNo: "6",
         mealPlan: "HB",
         roomRate: 19000,
-        mealRate: 5000,
         advancePaid: 12000,
         balanceDue: 7000,
         specialNotes: "Business Trip",
-        date: "2026-08-12"
+        date: "2026-08-12",
+        others: 5000
     },
     {
         guestName: "Ruwan Fernando",
@@ -98,11 +98,11 @@ const reservations = [
         roomNo: "7",
         mealPlan: "FB",
         roomRate: 21000,
-        mealRate: 5000,
         advancePaid: 10000,
         balanceDue: 11000,
         specialNotes: "Birthday Celebration",
-        date: "2026-08-14"
+        date: "2026-08-14",
+        others: 5000
     },
     {
         guestName: "Sarah Wilson",
@@ -113,11 +113,11 @@ const reservations = [
         roomNo: "8",
         mealPlan: "BB",
         roomRate: 16500,
-        mealRate: 5000,
         advancePaid: 8000,
         balanceDue: 8500,
         specialNotes: "High Floor Preferred",
-        date: "2026-08-16"
+        date: "2026-08-16",
+        others: 5000
     },
     {
         guestName: "Chamara Jayasinghe",
@@ -128,11 +128,11 @@ const reservations = [
         roomNo: "9",
         mealPlan: "HB",
         roomRate: 23000,
-        mealRate: 5000,
         advancePaid: 5000,
         balanceDue: 18000,
         specialNotes: "Group Booking",
-        date: "2026-08-18"
+        date: "2026-08-18",
+        others: 5000
     },
     {
         guestName: "Olivia Taylor",
@@ -143,10 +143,10 @@ const reservations = [
         roomNo: "10",
         mealPlan: "RO",
         roomRate: 15500,
-        mealRate: 5000,
         advancePaid: 7000,
         balanceDue: 8500,
         specialNotes: "Anniversary Stay",
-        date: "2026-08-20"
+        date: "2026-08-20",
+        others: 5000
     }
 ];
